@@ -1055,4 +1055,9 @@ class User extends Entry implements Authenticatable
 
         return false;
     }
+
+    public function getAuthPasswordName()
+    {
+        return 'password';
+    }
 }
